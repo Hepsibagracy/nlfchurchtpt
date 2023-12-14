@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.top{
+    position: sticky;
+    top:0;
+    
+    
+}
+.header{
+    background-color: #2b95ff;
+    height: 50px;   
+}
+.bx{
+    margin: 10px;
+    font-size: 20px;
+    color:white;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+.search{
+   
+    position: absolute;
+    right:5px;
+    display: inline-block;
+    
+}
+.icon{
+    text-decoration-line: none;
+}
+.header h{
+    font-size:15px ;
+}
+
+.bx-menu{
+    position: absolute;
+    right: 5PX;
+}
+h1{
+    text-align:left;
+}
+ul{
+    float:right;
+    display: flex;
+    justify-content:space-between;  
+    margin:0px 90px;
+    
+   
+}
+ul a{
+    text-decoration-line: none;
+    padding-right: 2px;
+    padding-left: 84px;
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    
+}
+.nav{
+    display: inline-block; 
+    padding-bottom: 5px;
+    background-color:white; 
+    border-bottom:2px solid whitesmoke;
+   
+}
+.nav h1{
+    font-size: 20px;
+    color:red;
+}
+.logo{
+    float: left;
+    padding-left: 15px;
+   
+}
+.giving{ 
+    border:2px solid #b0e9d9 ;
+    color:white;
+    background-color:#2b95ff;
+    margin-left: 85px;
+    justify-content: center;
+    padding-left: 0px;
+    box-shadow: 0 2px 20px 0px;
+
+}
+
+.first h1{
+    padding-top:20px;
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 70px;
+   
+}
+.first h2{
+    padding-top:20px;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 70px;
+    padding-bottom: 10PX;
+}
+.media{
+    background-color: blue;
+    align-content: center;
+}
+.footer{
+    background-color:black;
+}
+#inputbox{
+    width:600px;
+    background-color: blanchedalmond;
+}
+.verse{
+    background-color: #2b95ff;
+    color: white;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 70px;
+
+}
+.bxl-whatsapp{
+    color: green;
+}
+.testimony{
+    margin: 10px;
+}
+.testimony h1{
+    
+    color: #c02727;
+    text-align: center;
+    
+}
+.testimony h3{
+    
+    padding: 10px;
+    color:#c02727;;
+}
+.testimony p{
+    width: 550px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    
+}
+.test{
+    padding: 10px;
+    border-bottom:2px solid whitesmoke;
+}
+.test h2{
+    padding-bottom: 10px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.com{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    font-size: 20px;
+    width:170px;   
+}
+.sub{
+    display: none;
+    padding: 10px;
+    width:250px;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.main M1{
+    display: flex;
+    flex-direction: column;
+}
+span p{
+
+}

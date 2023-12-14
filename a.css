@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.top{
+    position: sticky;
+    top:0;
+    
+    
+}
+.header{
+    background-color: #2b95ff;
+    height: 50px;   
+}
+.bx{
+    margin: 10px;
+    font-size: 20px;
+    color:white;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+.search{
+   
+    position: absolute;
+    right:5px;
+    display: inline-block;
+    
+}
+.icon{
+    text-decoration-line: none;
+}
+.header h{
+    font-size:15px ;
+}
+
+.bx-menu{
+    position: absolute;
+    right: 5PX;
+}
+h1{
+    text-align:left;
+}
+ul{
+    float:right;
+    display: flex;
+    justify-content:space-between;  
+    margin:0px 90px;
+    
+   
+}
+ul a{
+    text-decoration-line: none;
+    padding-right: 2px;
+    padding-left: 84px;
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    
+}
+.nav{
+    display: inline-block; 
+    padding-bottom: 5px;
+    background-color:white; 
+    border-bottom:2px solid whitesmoke;
+   
+}
+.nav h1{
+    font-size: 20px;
+    color:red;
+}
+.logo{
+    float: left;
+    padding-left: 15px;
+   
+}
+.giving{ 
+    border:2px solid #b0e9d9 ;
+    color:white;
+    background-color:#2b95ff;
+    margin-left: 85px;
+    justify-content: center;
+    padding-left: 0px;
+    box-shadow: 0 2px 20px 0px;
+
+}
+h1{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 50px;
+    color:blue;
+  
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    left:50%;top:20%;
+    margin: 0px 50px;
+    width: 100%;
+    
+}
+.container img{
+    height:350px;
+    width:400px;
+    top:30%;
+    margin-left: 200px;
+}
+
+.text1{
+    letter-spacing:1px;
+    width: 100%;
+    line-height: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+.text2{
+    letter-spacing:1px;
+    width: 100%;
+    line-height: 20px;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.container p{
+    color:rgb(110, 80, 192);
+    padding-bottom: 20px;
+}
+.container h2{
+    padding-bottom: 20px;
+    color: red;
+}
+.content h1{
+    color: blue;
+    
+}
+.content p{
+    color:rgb(110, 80, 192);
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 20px;
+    
+}
