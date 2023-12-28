@@ -1,0 +1,126 @@
+@media only screen and (max-width:500px) {
+
+
+    * {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .top {
+        position: sticky;
+        top: 0;
+
+    }
+
+    .head {
+        display: none;
+    }
+
+    .header {
+        background-color: #2b95ff;
+        height: 30px;
+    }
+
+    .bx {
+        margin: 5px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+
+    }
+    .bx-menu{
+        background-color: blue;
+    }
+    .search {
+
+        position: absolute;
+        right: 5px;
+        display: flex;
+        top:5px;
+
+    }
+
+    .iconmenu {
+        text-decoration-line: none;
+        display: block;
+    }
+
+    .header h {
+        font-size: 15px;
+    }
+
+   
+    h1 {
+        text-align: left;
+    }
+
+    ul {
+        float: right;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 50px;
+    }
+
+    ul a {
+        text-decoration-line: none;
+        padding-right: 2px;
+        padding-left: 84px;
+        font-size: 20px;
+        margin: auto;
+        justify-content: center;
+
+    }
+
+    .nav {
+        display: inline-block;
+        padding-bottom: 5px;
+        background-color: white;
+        border-bottom: 2px solid whitesmoke;
+        overflow: hidden;
+
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .nav li{
+        float: left;
+        display: block;
+        list-style: none;
+    }
+    
+    .nav h1 {
+        font-size: 20px;
+        color: red;
+    }
+
+    .logo {
+        float: left;
+        padding-left: 15px;
+
+    }
+
+    .giving {
+        border: 2px solid #b0e9d9;
+        color: white;
+        background-color: #2b95ff;
+        margin-left: 85px;
+        justify-content: center;
+        padding-left: 0px;
+        box-shadow: 0 2px 20px 0px;
+
+    }
+    .iconmenu{
+        color:white;
+        float: right;
+    
+    }
+
+   
+
+}
