@@ -4,6 +4,7 @@
     * {
         padding: 0;
         margin: 0;
+      
 
     }
     .index{
@@ -79,9 +80,9 @@
         text-decoration-line: none;
         position: relative;
         justify-content: center;
-        background-size:500px;
-        right:50%;
-        padding:15px 220px ;
+        background-size:250px;
+        right:80%;
+        padding:15px 120px ;
         font-size: 20px;
         display: none;
         color: white;
@@ -189,7 +190,7 @@
     }
 
     .footer {
-        background-color: black;
+        background-color: white;
     }
 
    
@@ -244,8 +245,73 @@
     .test h2 {
         padding-bottom: 10px;
     }
-
     
+    .foot ul{
+        
+        width:fit-content;
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        color:white;
+    
+    }
+    
+    .foot ul li{
+        position: relative;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 5px;
+        font-size: 25px; 
+        color:white;
+    }
+    .foot ul li a{
+        color:white;
+    }
+    .communication{
+        width:fit-content;
+        height: fit-content;
+        margin-right: 60px;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .communication h3{
+        width:fit-content;
+        height: fit-content;
+        margin-right: 60px;
+        color:white;
+        font-size: 15px;
+        padding: 10px 0px;
+    
+    }
+    .footer{
+ 
+        background-color:rgb(79, 148, 194);
+        
+    }
+    .fcontact{
+    height:fit-content;
+    width:fit-content;
+    right:300px;
+    color:white;
+   
+    }
+    .footicon{
+       
+        display: flex;
+        justify-content: center;
+        background-color: rgb(79, 148, 194);
+    }
+    
+    .bxl-whatsapp{
+        background-color:rgb(101, 216, 101);
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        font-size:70px;
+        border-radius: 50%;
+
+    }
 
   
 }
@@ -263,12 +329,13 @@
     .top {
         position: sticky;
         top: 0;
+        z-index: 99;
 
 
     }
 
     .header {
-        background-color: #2b95ff;
+        background-color:rgb(79, 148, 194);
         height: 50px;
     }
 
@@ -315,7 +382,7 @@
         float: right;
         display: flex;
         justify-content: space-between;
-        margin: 0px 90px;
+        margin: 0px 10px;
 
 
     }
@@ -323,7 +390,7 @@
     ul a {
         text-decoration-line: none;
         padding-right: 2px;
-        padding-left: 84px;
+        padding-left: 24px;
         font-size: 20px;
         margin: auto;
         justify-content: center;
@@ -356,7 +423,7 @@
     .giving {
         border: 2px solid #b0e9d9;
         color: white;
-        background-color: #2b95ff;
+        background-color:rgb(79, 148, 194);
         margin-left: 85px;
         justify-content: center;
         padding-left: 0px;
@@ -364,7 +431,46 @@
 
     }
     
+    .content{
+        position: relative;
+        
+    }
+    .content .text{
+        position: absolute;
+        left:18%;top:15%;
+        z-index: 0;
+        color:white;
+        text-shadow: -1px 1px 0 blue, 1px 1px 0 blue,1px -1px 0 blue,-1px -1px 0 blue;
+        font-size: 15PX;
+        font-family: sans-serif;
+        justify-content: center;
+    }
+    .text h2{
+        position: absolute;
+        left:8%;top:65%;
+    }
+    .text .p1{
+        position: absolute;
+        left:5%;top:100%;
+    }
 
+    }
+    .text .p2{
+        position: absolute;
+        left:50%;top:140%;
+    }
+    .watch1,.watch2{
+        text-decoration: none;
+        position: relative;
+        right:0px;top:200px;
+        font-size: 10px;
+        color:rgb(89, 130, 218);
+        border:2px solid rgb(101, 101, 190);
+        width:100px;
+       
+
+
+    }
     .first h1 {
         padding-top: 20px;
         font-size: 40px;
@@ -388,7 +494,7 @@
     }
     
     .media {
-        background-color: blue;
+        background-color: rgb(79, 148, 194);
         align-content: center;
     }
 
@@ -402,7 +508,7 @@
     }
 
     .verse {
-        background-color: #2b95ff;
+        background-color: rgb(79, 148, 194);
         color: white;
         font-size: 30px;
         font-family: Montserrat, sans-serif;
@@ -454,7 +560,7 @@
     
 
   
-}
+
 
 @media only screen and (min-width:1101px) and (max-width:1500px) {
 
@@ -469,13 +575,13 @@
         position: sticky;
         top: 0;
         z-index: 99;
-        
+        overflow: hidden;
 
 
     }
 
     .header {
-        background-color:rgb(26, 26, 235);
+        background-color:rgb(79, 148, 194);
         height: 50px;
     }
 
@@ -565,7 +671,7 @@
     .giving {
         border: 2px solid #b0e9d9;
         color: white;
-        background-color: #2b95ff;
+        background-color: rgb(79, 148, 194);
         margin-left: 85px;
         justify-content: center;
         padding-left: 0px;
@@ -574,35 +680,42 @@
     }
     .content{
         position: relative;
+        
     }
     .content .text{
         position: absolute;
-        left:35%;top:10%;
+        left:20%;top:5%;
         z-index: 0;
         color:white;
+        text-shadow: -1px 1px 0 blue, 1px 1px 0 blue,1px -1px 0 blue,-1px -1px 0 blue;
         font-size: 25PX;
         font-family: sans-serif;
+        justify-content: center;
+    }
+    .text h2{
+        position: absolute;
+        left:15%;top:45%;
     }
     .text .p1{
         position: absolute;
-        left:15%;top:50%;
+        left:13%;top:100%;
+    }
+
     }
     .text .p2{
         position: absolute;
-        left:20%;top:60%;
+        left:50%;top:120%;
     }
-    .text .p3{
-        position: absolute;
-        left:30%;top:70%;
-    }
-    .watch a{
+    .watch1,.watch2{
         text-decoration: none;
         position: relative;
-        left:30px;top:20px;
+        right:20px;top:200px;
         font-size: 20px;
-        color:blue;
-        border:2px solid white;
-        background-color: white;
+        color:rgb(89, 130, 218);
+        border:2px solid rgb(101, 101, 190);
+        
+        width:200px;
+        margin-left:140px;
 
 
     }
@@ -664,7 +777,7 @@
     }
 
     .verse {
-        background-color:rgb(26, 26, 235);
+        background-color:rgb(79, 148, 194);
         color: white;
         font-size: 30px;
         font-family: Montserrat, sans-serif;
@@ -712,6 +825,17 @@
     .test h2 {
         padding-bottom: 10px;
     }
+    .help h1{
+        padding-top: 10px;
+        font-size: 30px;
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 70px;
+        padding-bottom: 10PX;
+        
+
+    }
    
     .foot ul{
         
@@ -739,12 +863,23 @@
         height: fit-content;
         margin-right: 60px;
         color:white;
+        font-size: 15px;
+    
+    }
+    .communication h3{
+        width:fit-content;
+        height: fit-content;
+        margin-right: 60px;
+        color:white;
+        font-size: 15px;
+        padding: 15px 0px;
+    
     
     }
     .footer{
         display: flex;
         flex-direction: row;
-        background-color:blue;
+        background-color:rgb(79, 148, 194);
         
     }
     .fcontact{
@@ -757,7 +892,7 @@
        
         display: flex;
         justify-content: center;
-        background-color: blue;
+        background-color: rgb(79, 148, 194);
     }
     
     .bxl-whatsapp{
@@ -772,4 +907,3 @@
     
     
    
-}
