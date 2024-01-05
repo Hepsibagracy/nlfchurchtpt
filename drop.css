@@ -1,0 +1,72 @@
+ul {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 250px;
+   
+}
+ul a:hover{
+    color:black;
+    text-decoration: underline;
+    
+}
+.sub {
+    text-decoration-line: none;
+    position: relative;
+    justify-content: center;
+    background-size:250px;
+    right:80%;
+    padding:15px 120px ;
+    font-size: 20px;
+    display: none;
+    color: white;
+   
+}
+
+.nav {
+    display: inline-block;
+    padding-bottom: 5px;
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+    overflow: hidden;
+   
+
+}
+.bx-menu {
+    position: absolute;
+    right: 255PX;
+    color:white;
+    background-color: #2b95ff;
+}
+.bx-menu:hover{
+   color: blue;
+   background-color: white;
+}
+.main:hover .sub{
+    display: block;
+    background-color: #2b95ff;
+    width:100%;
+}
+.nav h1 {
+    font-size: 20px;
+    color: red;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    right:250px;
+    background-color: white;
+
+}
+.topnav a.icon{
+    float: right;
+    display: block;
+}
+.topnav a:not(:first-child){
+    display: none;
+}
+.main{
+    width: 50%;
+}

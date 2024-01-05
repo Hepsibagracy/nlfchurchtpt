@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="index.js"></script>
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -51,8 +51,9 @@
             </div>
             <div class="nav" id="topnav">
                 
-
-                <div class="main" ><button><a href="" ><i class='bx bx-menu'></i></a></button>
+                
+                <div class="main" ><a href="" ><i class='bx bx-menu' id="icon"></i></a>
+                    <div id="links" class="navlinks">
                 <ul>
                     <img class="logo" src="chlogo.jpeg" width="150px" height="80px">
                 
@@ -66,6 +67,7 @@
               
 
                 </ul>
+            </div>
             </div>
             </div>
         </div>
@@ -88,6 +90,7 @@
             
            
              <a class="watch1" href="watches.html">WATCH SEREMONS</a>
+             <a class="watch1" href="prayer.html">PRAYER REQUEST</a>
             
             
             
@@ -183,6 +186,15 @@
 
 <a href="https://wa.me/917200371639" class="whatsapp" target="_blank"><i class='bx bxl-whatsapp'></i></a>
 </div>
+<script>
+    let menu=document.getElementById('icons')
+    let link=document.getElementById('links')
+    
+    icons.addEventListener(click,()=>{
+        link.classList.toggle('active')
+    })
+</script>
+
 </body>
 
 </html>

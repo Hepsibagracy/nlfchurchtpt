@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="drop.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="index.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div class="nav" id="topnav">
+                
+
+        <div class="main" ><a href="javascript:void(0);" class="icon" onclick="myFunc()" ><i class='bx bx-menu'></i></a>
+        <ul>
+            <img class="logo" src="chlogo.jpeg" width="150px" height="80px">
+        
+            <a  class="sub"  href="index.html">Home</a>
+            <a  class="sub"  href="a.html">About</a>
+            <a  class="sub"  href="watches.html">Watch</a>
+            <a  class="sub"  href="prayer.html">Prayer</a>
+            <a  class="sub"  href="cont.html">Contact</a>
+            <a  class="sub"  href="location.html">Locations</a>
+            <a  class="sub"  href="#" class="giving">Giving</a>
+      
+
+        </ul>
+    </div>
+    </div>
+<script>
+    const menu= document.querySelector('.main')
+    const menulist= document.querySelector('.main ul')
+    menu.addEventListener('click',()=>{
+        menuList.classList.toggle('showmenu')
+    })
+</script>
+
+</body>
+</html>
