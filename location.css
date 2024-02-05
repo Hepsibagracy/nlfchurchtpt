@@ -107,3 +107,6 @@ div h2{
     color: blue;
     padding-top: 20px;
 }
+.addr{
+    display: inline-block;
+}

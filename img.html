@@ -5,12 +5,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="img.css">
 </head>
-<body>
-    <div class="content">
-        <img src="ch.img" width="100%" height="500px">
-        <div class="text"><h1>new life fellowship</h1></div>
+<body onload="slider()">
+    <div class="banner">
+        <div class="slider">
+            <img src="worship.jpeg"  id="slideimg">
+        </div>
+        <div class="overlay"></div>
+        <div class="text"><h1>New Life Fellowship</h1></div>
 
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempore laboriosam itaque nemo beatae adipisci magnam quibusdam, porro cum iste iusto harum est, provident quidem. Eum iure nulla veniam voluptatibus voluptas. Maiores in distinctio sint reprehenderit animi, debitis laudantium labore error quidem optio beatae natus cumque voluptatibus ad similique est doloremque ea autem ipsum dolor eaque hic accusamus! Dignissimos temporibus ipsum quo quia et, sit sint id quibusdam quisquam exercitationem veniam, vero optio aliquam unde esse vel consequuntur tempore. Ipsa quisquam tempore debitis perferendis fuga! Necessitatibus beatae quasi eum, accusamus, tempora esse velit est itaque quod possimus sit eaque dolores voluptas impedit atque quis mollitia, ipsa quibusdam molestiae consequuntur veritatis architecto eos tempore. Inventore id, iure fugiat eligendi vero minus est minima molestias fugit corporis doloremque excepturi culpa suscipit aut nulla voluptatem! Harum odit, ut repellat similique ducimus quae ea aut soluta iste expedita accusamus, nesciunt a eligendi numquam voluptates rem quisquam praesentium. Autem omnis, sit praesentium tenetur iste quisquam nam nisi possimus, quasi magnam ad consequatur. Distinctio excepturi nihil facilis voluptates maxime adipisci, dolorum optio quidem? Saepe fugit perspiciatis ipsum possimus aliquid voluptas facilis aliquam sequi similique, autem adipisci voluptates optio ea modi dicta sed, et incidunt voluptatum suscipit temporibus neque quam tempora. Iusto, beatae nam. Expedita officia magni quod, ab provident modi minus omnis nam, nulla commodi reiciendis. Autem alias fugiat sint, impedit voluptatibus aspernatur maiores numquam commodi, distinctio ad sequi hic provident minima modi. Asperiores officia aut animi quia iure tempora nostrum dolores maxime beatae. Nihil modi pariatur saepe natus quibusdam soluta atque itaque quae sunt? Commodi nulla reiciendis debitis optio quae quaerat libero aperiam dolor, distinctio eum laudantium nemo asperiores, fuga animi velit, incidunt modi blanditiis ut in pariatur tempore deserunt facere aspernatur. Minus iste expedita eum deleniti esse ducimus adipisci quam ullam incidunt quae voluptatibus ipsam blanditiis, quo nemo consequuntur ad necessitatibus ab nisi ratione provident ex possimus non error. Iusto minima numquam accusantium labore tempora unde omnis assumenda impedit quibusdam saepe, temporibus delectus suscipit, doloribus aliquid non? Quo, eos. Cum enim voluptatem dolores ea, qui eos quia ullam, tenetur autem sed fugiat earum voluptates laborum vel! Ex, provident optio iste error aperiam suscipit quia facilis laboriosam soluta culpa esse deserunt autem molestias sed praesentium dolor ratione laborum sequi voluptatibus, natus nostrum impedit architecto quas et. Magni architecto tempore dolor, enim fugit voluptatem fuga adipisci ullam. Vel ex, ad totam quos autem alias laborum, officiis magnam nulla ratione quaerat excepturi, error delectus aliquam repellat quae veritatis deserunt unde dolorum harum! Odit aliquam deserunt asperiores. Dolorum veniam vel, unde quas impedit, quibusdam aliquid ipsam accusamus inventore officiis veritatis sit dignissimos delectus libero iure? Quis eveniet suscipit aliquid ipsum reprehenderit maxime soluta! Error praesentium molestias asperiores illo, eum quia ipsam magnam doloribus culpa autem nobis sit assumenda iure, provident et possimus consequuntur nihil reiciendis corrupti odio. Iure, aut eligendi. Ad nulla voluptatem ullam, veritatis quis, tempore reiciendis eos quibusdam incidunt doloremque asperiores at quia dolorem iste, ducimus soluta enim voluptatum nam? Est, corrupti qui? Totam, odit suscipit.</p>
+    <script>
+        var slideimg = document.getElementById('slideimg');
+
+        var images = new Array(
+            "nlf.jpeg",
+            "nlftpt.jpeg",
+            "pas.jpeg",
+            "music.jpeg"
+        );
+        var len = images.length;
+        var i=0;
+
+        function slider(){
+            if (i > len-1){
+                i=0;
+            }
+            slideimg.src = images[i];
+            i++;
+            setTimeout('slider()',3000);
+        }
+
+    </script>
+    
 </body>
 </html>

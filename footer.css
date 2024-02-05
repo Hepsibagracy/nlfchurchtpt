@@ -1,0 +1,20 @@
+.container{
+    width:100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.foot-col ul li{
+    padding: 5px 0px;
+    list-style: none;
+    align-items:start;
+    
+}
+.foot-col ul li a{
+    text-decoration: none;
+    
+}
+

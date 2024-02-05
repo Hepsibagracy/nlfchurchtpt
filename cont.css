@@ -8,13 +8,13 @@
     top:0;  
 }
 .header{
-    background-color: #2b95ff;
+    background-color:#2b95ff;
     height: 50px;   
 }
 .bx{
     margin: 10px;
     font-size: 20px;
-    color:white;
+    color:blue;
 }
 
 .details{
@@ -88,57 +88,94 @@ ul a{
     box-shadow: 0 2px 20px 0px;
 
 }
-.para{
-    margin: 50px 50px;
+.maincontainer{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: aqua;
+    height: 100%;
+   
 }
-h1{
-    padding-bottom:30px;
+.contact{
     color:blue;
     text-align: center;
     font-size: 50px;
+    background-color: aqua;
 }
-h2{
-    padding-bottom: 30px;
-    color:blue;
-    text-align: center;
+.maincontainer h1{
+    color: blue;
     font-size: 30px;
+    width: 80%;
+    margin-bottom: 10px;
 }
-p{
-    padding-bottom:5x;
+.contact-box{
+    display: flex;    
 }
-form{
-    margin:auto;
-    left:20%;
-    width: 300px;
+.left{
+    flex-basis: 60%;
+    margin-left: 40px;
+    padding: 40px 60px;
+    background-color: white;
+}
+.right{
+    flex-basis: 40%;
+    margin-right: 40px;
+    padding: 40px;
+    background-color: blue;
+    color: white;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+}
+.input-group{
+    flex-basis:40% ;
 }
 input{
-    width:500px;
-}
-span input{
-    height: 100px;
-}
-
-.par p{
-    margin-top:20px;
-    background-color: #2b95ff;
-    color: white;
-    font-size: 30px;
-    font-family: Montserrat, sans-serif;
-    font-weight: 900;
-    text-align: center;
-    letter-spacing: 2px;
-    line-height: 70px;
     width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
 }
-.bx1-whatsapp{
-    font-size: 30px;
+textarea{
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.whatsap{
-    display: flex;
-    background-color: green;
-    justify-content: center;
-    font-size: 23px;
+label{
+    margin-bottom: 10px;
+    display: block;
+    color:black;
 }
-.whatsapp{
-    font-size: 30px;
+button{
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+     border-radius: 0px 5px 15px blue;
+}
+.left h3{
+    color: blue;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.right tr{
+    color: white;
+}
+.right h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+tr td:first-child{
+    padding-right: 40px;
+}
+tr td{
+    padding-top: 20px;
 }

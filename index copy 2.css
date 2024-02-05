@@ -48,7 +48,7 @@
 
     }
 
-    #icon {
+    .icon {
         text-decoration-line: none;
         display: block;
     }
@@ -146,7 +146,7 @@
     
     }
    
-    /*==================== after header=====================*/
+    
     .first h1 {
         padding-top: 20px;
         font-size: 30px;
@@ -408,7 +408,7 @@
         box-shadow: 0 2px 20px 0px;
 
     }
-    /* ==================== after header=====================*/
+    
     .content{
         position: relative;
         
@@ -656,50 +656,68 @@
         box-shadow: 0 2px 20px 0px;
 
     }
-
-    /*==================== after header======================*/
     .content{
         position: relative;
+        text-align: center;
         
     }
     .content .text{
         position: absolute;
-        left:20%;top:5%;
+        top:10%;left:0%;
+        width: 100%;
         z-index: 0;
         color:white;
         text-shadow: -1px 1px 0 blue, 1px 1px 0 blue,1px -1px 0 blue,-1px -1px 0 blue;
-        font-size: 25PX;
-        font-family: sans-serif;
-        justify-content: center;
-    }
-    .text h2{
-        position: absolute;
-        left:15%;top:45%;
-    }
-    .text .p1{
-        position: absolute;
-        left:13%;top:100%;
-    }
 
-    }
-    .text .p2{
-        position: absolute;
-        left:50%;top:120%;
-    }
-    .watch1,.watch2{
-        text-decoration: none;
-        position: relative;
-        right:20px;top:200px;
-        font-size: 20px;
-        color:rgb(89, 130, 218);
-        border:2px solid rgb(101, 101, 190);
         
-        width:200px;
-        margin-left:140px;
+        
+    }
 
+    .text h2{
+       font-size: 40px;
+       padding-bottom: 60px;
+    }
+    .text h3{
+        font-size: 40px;
+        padding-bottom: 60px;
+     }
+    .text .p1{
+       font-size: 40px;
+       padding-bottom: 20px;
+    }
+    .text .p3{
+        font-size: 20px;
+        padding-bottom: 80px;
+     }
 
     }
     
+    .watch{
+        text-decoration: none;
+        font-size: 20px;
+        color:white;
+        border:2px solid black;
+    }
+     /*.content
+    {
+    background-image: url(ch.img);
+    width:100%; height:550px;
+    background-repeat: no-repeat;
+    left:40%; top:20%;
+    animation-name:image;
+    animation-duration: 2s;
+    animation-timing-function:unset;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    }
+    @keyframes image
+    {
+    0%{background-image:url(chlogo.jpeg);}
+    50%{background-image:url(nlftpt.jpeg);}
+    100%{background-image:url(nlf.jpeg); }
+    }
+    */
     .first h1 {
         padding-top: 20px;
         font-size: 40px;

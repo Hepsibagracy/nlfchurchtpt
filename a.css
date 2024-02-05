@@ -3,15 +3,21 @@
     margin: 0;
     
 }
+.about{
+    transition: 2s;
+}
 .top{
     position: sticky;
     top:0;
+    z-index: 99;
+  
     
     
 }
 .header{
     background-color: #2b95ff;
     height: 50px;   
+    overflow: hidden;
 }
 .bx{
     margin: 10px;
@@ -51,7 +57,7 @@ ul{
     float:right;
     display: flex;
     justify-content:space-between;  
-    margin:0px 90px;
+    margin:0px 89.5px;
     
    
 }
@@ -103,15 +109,18 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
     left:50%;top:20%;
-    margin: 0px 50px;
+   
     width: 100%;
+    z-index: 0;
+    background-color: aqua;
+  
     
 }
 .container img{
     height:350px;
     width:400px;
     top:30%;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 .text1{
@@ -122,6 +131,7 @@ h1{
     padding-top: 20px;
     padding-bottom: 25px;
     padding-left: 10px;
+    
 }
 .text2{
     letter-spacing:1px;
@@ -147,6 +157,24 @@ h1{
     color:rgb(110, 80, 192);
     letter-spacing: 1px;
     line-height: 20px;
-    margin: 20px;
+    padding: 20px;
+    opacity: 0;
     
+}
+.slide-left{
+    animation: slideleft 1s linear forwards ;
+}
+@keyframes slideleft{
+    0%{
+        transform:translate(-40px);   
+        opacity:0;
+        
+    }
+    100%{
+        transform:translate(0px);   
+        opacity:1;
+    }
+}
+p.slide-left{
+    animation-delay: 1s;
 }
