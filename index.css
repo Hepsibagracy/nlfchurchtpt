@@ -234,6 +234,7 @@ nav a:hover{
          border:2px solid white;
          width: 200px;
         
+     
      }
    
 
@@ -249,15 +250,19 @@ nav a:hover{
         padding-bottom: 5PX;
         background-color:rgb(224, 236, 232);
     }
-
+   
     .verse {
-       
+        display: flex;
+        flex-direction: column;
         text-align: center;
+        align-items: center;
+       
 
     }
     .verse img{
         width:250px;
-        height:200px;
+        height:300px;
+        margin: 10px 0px;
     }
     .help h1{
         padding: 10px 10px;
@@ -323,7 +328,15 @@ nav a:hover{
         border-radius: 100%;
         background-color: black;
     }
-   
+    .bxl-whatsapp{
+        background-color:rgb(101, 216, 101);
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        font-size:50px;
+        border-radius: 100%;
+    
+    }
    
    
     

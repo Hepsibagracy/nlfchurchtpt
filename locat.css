@@ -109,27 +109,8 @@ nav a:hover{
 
 /*===============  location =======================*/
 
-iv h1{
-    text-align: center;
-    color: blue;
-    font-size: 50px;
-}
-div h3{
-    text-align: center;
-}
-div iframe{
-    padding-left: 300px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-div h2{
-    text-align: center;
-    color: blue;
-    padding-top: 20px;
-}
-.addr{
-    display: inline-block;
-}
+
+
 
 
 
@@ -202,8 +183,14 @@ div h2{
         
         right:0px;top:0px;
     }
+    /*===============================location=================*/
+    
 
     /*=========================== background img with content=============================*/
+
+
+
+
     .content{
         position: relative;
         background-color: #2b95ff;
