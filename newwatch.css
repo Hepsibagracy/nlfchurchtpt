@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     font-family: "Poppins", sans-serif;
+    
 }
 /*header---$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 .index{
@@ -186,8 +187,9 @@ nav a:hover{
     h1{
         text-align: center;
        
-        color: blue;
+        color: rgb(38, 38, 224);
         font-size: 20px;
+        background-color: rgb(233, 232, 238);
     }
      h2{
         background-color: red;
@@ -195,6 +197,7 @@ nav a:hover{
         width: fit-content;
         color:white;
         font-size: 15px;
+        
     
     }
     .gridcontainer {
@@ -204,6 +207,7 @@ nav a:hover{
       grid-template-rows: auto;
       justify-content: space-evenly;
       flex-wrap: wrap;
+      background-color: rgb(233, 232, 238);
     }  
     .subvid iframe{
       width:200px;

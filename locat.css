@@ -186,89 +186,60 @@ nav a:hover{
     /*===============================location=================*/
     
 
-    /*=========================== background img with content=============================*/
-
-
-
-
-    .content{
-        position: relative;
-        background-color: #2b95ff;
-        background-repeat: no-repeat;
-        width:100%;height: 80vh;
-        text-align: center;
+    /*=========================== background img with content=============================
+    .locate{
+        background-color:rgb(233, 232, 238);
+        color: blue;
+    
+    }
+    .loaction{
+        width:00px;
+        height: 200px;
         
     }
-    .content .text{
-        position: absolute;
-        top:10%;left:0%;
-        width: 100%;
-        z-index: 0;
-        color:white;
-        text-shadow: -1px 1px 0 blue, 1px 1px 0 blue,1px -1px 0 blue,-1px -1px 0 blue;
-        text-align: center;
+    .locate h2{
+        font-size: 35px;
     }
+    .addr{
+        background-color:rgb(233, 232, 238);
+        color:blue;
+    }
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .addr{
+        font-style: italic;
+    }
+    .addr h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }*/
 
-    .content img{
-       display: none;
+    .locate{
+        background-color:rgb(233, 232, 238);
+        color: blue;
+    
     }
-    .text h2{
-        
-        padding-bottom: 40px;
-     }
-     .text h3{
-         
-         padding-bottom: 60px;
-      }
-     .text .p1{
-        
-        padding-bottom: 20px;
-     }
-     .text .p3{
-         
-         padding-bottom: 80px;
-      }
- 
-     
-     
-     .watch{
-         text-decoration: none;
-         
-         color:white;
-         border:2px solid black;
-     }
+    .locate h2{
+        font-size: 30px;
+    }
+    .addr{
+        background-color:rgb(233, 232, 238);
+        color:blue;
+    }
    
+    .addr{
+        font-style: italic;
+    }
+    .addr h1{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-decoration: underline;
 
-    .first h2 {
-        padding: 5px 10PX;
-        
+    }
+    .addr h3{
         font-size: 15px;
-        font-family: Montserrat, sans-serif;
-        font-weight: 700;
-        text-align: center;
-        letter-spacing: 2px;
-        line-height: 40px;
-        padding-bottom: 5PX;
-    }
-
-    .verse {
-       
-        text-align: center;
-
-    }
-    .verse img{
-        width:250px;
-        height:200px;
-    }
-    .help h1{
-        padding: 10px 10px;
-        font-size: 15px;
-        font-family: Montserrat, sans-serif;
-        text-align: center;
-        letter-spacing: 2px;
-        line-height: 30px;
-       
-
     }
     .fcontainer{
         width:100%;
@@ -408,84 +379,33 @@ nav a:hover{
     }
 
     /*=========================== background img with content=============================*/
-    .content{
-        position: relative;
-        background-color: #2b95ff;
-        background-repeat: no-repeat;
-        width:100%;height: 80vh;
-        text-align: center;
+    .locate{
+        background-color:rgb(233, 232, 238);
+        color: blue;
+    
+    }
+    .loaction{
+        width:350px;
+        height: 450px;
         
     }
-    .content .text{
-        position: absolute;
-        top:10%;left:0%;
-        width: 100%;
-        z-index: 0;
-        color:white;
-        text-shadow: -1px 1px 0 blue, 1px 1px 0 blue,1px -1px 0 blue,-1px -1px 0 blue;
-        text-align: center;
+    .locate h2{
+        font-size: 35px;
     }
-
-    .content img{
-       display: none;
+    .addr{
+        background-color:rgb(233, 232, 238);
+        color:blue;
     }
-    .text h2{
-        
-        padding-bottom: 40px;
-     }
-     .text h3{
-         
-         padding-bottom: 60px;
-      }
-     .text .p1{
-        
-        padding-bottom: 20px;
-     }
-     .text .p3{
-         
-         padding-bottom: 80px;
-      }
- 
-     
-     
-     .watch{
-         text-decoration: none;
-         
-         color:white;
-         border:2px solid black;
-     }
-   
-
-    .first h2 {
-        padding: 5px 10PX;
-        
-        font-size: 15px;
-        font-family: Montserrat, sans-serif;
-        font-weight: 700;
-        text-align: center;
-        letter-spacing: 2px;
-        line-height: 40px;
-        padding-bottom: 5PX;
+    iframe{
+        width: 300px;
+        height: 300px;
     }
-
-    .verse {
-       
-        text-align: center;
-
+    .addr{
+        font-style: italic;
     }
-    .verse img{
-        width:250px;
-        height:200px;
-    }
-    .help h1{
-        padding: 10px 10px;
-        font-size: 15px;
-        font-family: Montserrat, sans-serif;
-        text-align: center;
-        letter-spacing: 2px;
-        line-height: 30px;
-       
-
+    .addr h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .fcontainer{
         width:100%;
@@ -627,122 +547,34 @@ nav a:hover{
 
    
 
-    #slideimg{
-        width:100%; 
-        height:85vh;
-    }
-    .content{
-        position: relative;
-        text-align: center;
-        
-    }
-    .content .text{
-        position: absolute;
-        top:10%;left:0%;
-        width: 100%;
-        z-index: 0;
-        color:white;
-        text-shadow: -1px 1px 0 blue, 1px 1px 0 blue,1px -1px 0 blue,-1px -1px 0 blue;
-
-        
-        
-    }
-
-    .text h2{
-        font-size: 40px;
-        padding-bottom: 60px;
-     }
-     .text h3{
-         font-size: 40px;
-         padding-bottom: 60px;
-      }
-     .text .p1{
-        font-size: 40px;
-        padding-bottom: 20px;
-     }
-     .text .p3{
-         font-size: 20px;
-         padding-bottom: 50px;
-      }
- 
-     
-     
-     .watch{
-         text-decoration: none;
-         font-size: 15px;
-         color:white;
-         border:2px solid black;
-     }
+    .locate{
+        background-color:rgb(233, 232, 238);
+        color: blue;
     
-    .first h1 {
-        padding-top: 20px;
+    }
+    .loaction{
+        width:350px;
+        height: 450px;
+        
+    }
+    .locate h2{
         font-size: 40px;
-        font-family: Montserrat, sans-serif;
-        font-weight: 900;
-        text-align: center;
-        letter-spacing: 2px;
-        line-height: 70px;
+    }
+    .addr{
+        background-color:rgb(233, 232, 238);
         color:blue;
-        
-
     }
-
-    .first h2 {
-        padding-top: 20px;
-        font-size: 30px;
-        font-family: Montserrat, sans-serif;
-        font-weight: 700;
-        text-align: center;
-        letter-spacing: 2px;
-        line-height: 70px;
-        padding-bottom: 10PX;
-        background-color: aqua;
+    iframe{
+        width: 550px;
+        height: 350px;
     }
-
-    .media {
-        background-color: blue;
-        align-content: center;
+    .addr{
+        font-style: italic;
     }
-    #inputbox {
-        width: 600px;
-        background-color: blanchedalmond;
-    }
-
-    .verse {
-       
-       
-        text-align: center;
-        justify-content: center;
-      
-
-    }
-    .verse img{
-        width:550px;
-        height:400px;
-    }
-
-    .bxl-whatsapp {
-        color: green;
-    }
-
-    
-    .help h1{
+    .addr h1{
         padding-top: 10px;
-        font-size: 30px;
-        font-family: Montserrat, sans-serif;
-        text-align: center;
-        letter-spacing: 2px;
-        line-height: 70px;
-        padding-bottom: 10PX;
-        background-image:linear-gradient(aqua,blue);
-        color:white;
-        
-
+        padding-bottom: 10px;
     }
-    
-    
-    
-    
     
     
     .bxl-whatsapp{
